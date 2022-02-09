@@ -24,4 +24,5 @@ I feel that we did a prtty good job for this assignment. One thing that I wish I
 ## How long it took me/us to finish this:
 Around 3 hours, had to make sure he could see my Repo and that took awhile.
 ## Group list, if applicable:
-Perry McCarthy () - His Repo
+Steven Hatton
+Perry McCarthy
