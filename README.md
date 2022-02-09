@@ -22,6 +22,6 @@ For this we decided to use Local storage for this application. The data will not
 ## Self Reflection(s):
 I feel that we did a prtty good job for this assignment. One thing that I wish I would do is find a font that would make it so it looks hand written and has a notebook paper type of look.
 ## How long it took me/us to finish this:
-Around 3 hours, had to make sure he could see my Repo and that took awhile
+Around 3 hours, had to make sure he could see my Repo and that took awhile.
 ## Group list, if applicable:
 Perry McCarthy () - His Repo
