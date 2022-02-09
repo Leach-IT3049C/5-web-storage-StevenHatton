@@ -1,0 +1,19 @@
+body, html {
+    height: 100px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+header, footer {
+    background: #e9ecef;
+}
+.jumbotron {
+    margin-bottom: 0;
+}
+footer {
+    padding: 0.5px;
+}
