@@ -1,14 +1,14 @@
-const getItems = document.getElementById(`Items`);
+const getItems = document.getElementById(`items`);
 const getForm = document.getElementById(`form`);
 const getList = document.getElementById(`list`);
-const addBtn = document.getElementById(`Add Item`);
-const clearBtn = document.getElementById(`Clear all`);
+const addBtn = document.getElementById(`add`);
+const clearBtn = document.getElementById(`clear all`);
 
 
-let itemsArray = localStorage.getItem(`Items`) ? JSON.parse(localStorage.getItem(`Items`)) : [] ;
+let itemsArray = localStorage.getItem(`items`) ? JSON.parse(localStorage.getItem(`items`)) : [] ;
 
-localStorage.setItem(`Items`, JSON.stringify(itemsArray));
-const data = JSON.parse(localStorage.getItem(`Items`));
+localStorage.setItem(`items`, JSON.stringify(itemsArray));
+const data = JSON.parse(localStorage.getItem(`items`));
 
 const liMaker = (text) => {
     const li = document.createElement(`li`);
@@ -21,7 +21,7 @@ getForm.addEventListener(`submit`, function (e) {
     e.preventDefault();
 
     itemsArray.push(getItems.value);
-    localStorage.setItem(`Items`, JSON.stringify(itemsArray));
+    localStorage.setItem(`items`, JSON.stringify(itemsArray));
     liMaker(getItems.value);
     getItems.value="";
 
@@ -30,7 +30,7 @@ getForm.addEventListener(`submit`, function (e) {
 addBtn.addEventListener(`click`, function () {
 
     itemsArray.push(getItems.value);
-    localStorage.setItem(`Items`, JSON.stringify(itemsArray));
+    localStorage.setItem(`items`, JSON.stringify(itemsArray));
     liMaker(getItems.value);
     getItems.value="";
 });
